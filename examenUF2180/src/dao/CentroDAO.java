@@ -121,7 +121,7 @@ public class CentroDAO {
 			resultado=consulta.executeUpdate();
 
 		} catch (SQLException e) {
-			System.out.println("Error al realizar la inserción del centro: "
+			System.out.println("Error al realizar la inserciï¿½n del centro: "
 		        +e.getMessage());
 		} finally {
 			try {
@@ -196,5 +196,5 @@ public class CentroDAO {
 		}
 		return resultado;
     }
-
+    
 }
